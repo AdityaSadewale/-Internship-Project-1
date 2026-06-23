@@ -1,7 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { Copy, Check, RotateCw, History, Trash2, Clipboard, Zap, Shield, Key } from 'lucide-react';
 
-
 export default function StringGenerator() {
   // 1. State Hooks
   const [length, setLength] = useState(16);
