@@ -1,7 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { Copy, Check, RotateCw, History, Trash2, Clipboard, Zap, Shield, Key } from 'lucide-react';
 
-
 export default function StringGenerator() {
   // 1. State Hooks
   const [length, setLength] = useState(16);
@@ -21,6 +20,7 @@ export default function StringGenerator() {
   const [bulkStrings, setBulkStrings] = useState([]);
   const [autoGenerateOnChange, setAutoGenerateOnChange] = useState(true);
 
+  
   // 2. Callback Hook for generation logic
   const generateRandomString = useCallback((len, config) => {
     const { upper, lower, nums, syms, pref, suff } = config;
