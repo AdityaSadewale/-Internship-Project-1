@@ -4,6 +4,7 @@
 
 A modern and scalable application developed as part of an internship program, demonstrating software development best practices, clean architecture, and real-world problem-solving skills.
 
+
 ## 📌 Project Overview
 
 This project was built to address specific business or technical requirements during the internship period. It showcases practical implementation of modern development technologies, efficient coding practices, and a user-focused design approach.
