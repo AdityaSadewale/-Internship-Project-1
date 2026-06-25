@@ -1,6 +1,7 @@
 # Internship Project 1
 
 
+
 A modern and scalable application developed as part of an internship program, demonstrating software development best practices, clean architecture, and real-world problem-solving skills.
 
 ## 📌 Project Overview
