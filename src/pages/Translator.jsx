@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Languages, Volume2, Copy, Check, Settings, Trash2, ArrowRightLeft, AlertCircle, HelpCircle } from 'lucide-react';
 
+
 const SUPPORTED_LANGUAGES = [
   { code: 'es', name: 'Spanish (Español)' },
   { code: 'fr', name: 'French (Français)' },
