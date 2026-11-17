@@ -20,6 +20,7 @@ export default function StringGenerator() {
   const [bulkStrings, setBulkStrings] = useState([]);
   const [autoGenerateOnChange, setAutoGenerateOnChange] = useState(true);
 
+
   
   // 2. Callback Hook for generation logic
   const generateRandomString = useCallback((len, config) => {
